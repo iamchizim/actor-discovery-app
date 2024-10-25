@@ -1,7 +1,5 @@
 import React from "react";
 
-import React from "react";
-
 const Actor = ({ actor }) => {
   return (
     <div>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const ErrorMessage = ({ blogs }) => {
+const ErrorMessage = ({ actors }) => {
   const [errorMessage, setErrorMessage] = useState("");
 
   useEffect(() => {
