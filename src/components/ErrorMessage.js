@@ -11,7 +11,7 @@ const ErrorMessage = ({ actors }) => {
     }
   }, [actors]);
 
-  return <section className="error">{errorMessage && <p>{errorMessage}</p>}</section>;
+  return <section  className="error">{errorMessage && <p>{errorMessage}</p>}</section>;
 };
 
 export default ErrorMessage;
